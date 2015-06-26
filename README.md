@@ -62,22 +62,22 @@ RAID10：高可靠性与高效磁盘结构
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
-* What is the name and the UID of the administrator user?
-	id -n
-	id -u
-	sudo cat /etc/passwd | grep sakurasou
-* How to list all files, including hidden one, in a directory?
-	ls -a
-* What is the Unix/Linux command to remove a directory and its contents?
+* What is the name and the UID of the administrator user?  
+	id -n  
+	id -u  
+	sudo cat /etc/passwd | grep sakurasou  
+* How to list all files, including hidden one, in a directory?  
+	ls -a  
+* What is the Unix/Linux command to remove a directory and its contents?  
 	rm -rf <name>
-* Which command will show you free/used memory? Does free memory exist on Linux?
+* Which command will show you free/used memory? Does free memory exist on Linux?  
 	free
 	存在，但通常都很小，很多都被buffer和cache
-* How to search for the string "my konfi is the best" in files of a directory recursively?
+* How to search for the string "my konfi is the best" in files of a directory recursively?  
 	find <dir> | xargs grep -r "my konfi is the best" 
 * How to connect to a remote server or what is SSH?
 	ssh <address>
-* How to get all environment variables and how can you use them?
+* How to get all environment variables and how can you use them?  
 	env
 	使用export设置一个新的环境变量
 	使用unset清除一个环境变量
